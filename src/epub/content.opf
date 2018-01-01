@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/thomas-carlyle/latter-day-pamphlets</dc:identifier>
+        <dc:identifier id="uid">url:https://github.org/krendil/thomas-carlyle_latter-day-pamphlets</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<meta property="se:revision-number">0</meta>
@@ -23,38 +23,39 @@
 		<dc:subject id="subject-2">Great Britain -- Social conditions -- 19th century</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1140</meta>
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/1140</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:subject">Philosophy</meta>
+		<dc:description id="description">Political and social commentary on 19th century Britain.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>en-US</dc:language>
+		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1140</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:source>https://archive.org/details/latterdaypamphle00carluoft</dc:source>
+		<meta property="se:production-notes">NOT an actual Standard Ebooks release. Did not regularise capitalisation or archaic spellings. Last three chapters not present in Gutenberg edition for unknown reason.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Latter-Day_Pamphlets</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-carlyle_latter-day-pamphlets</meta>
+		<meta property="se:url.vcs.github">https://github.com/krendil/thomas-carlyle_latter-day-pamphlets</meta>
 		<dc:creator id="author">Thomas Carlyle</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Carlyle, Thomas</meta>
+		<meta property="se:name.person.full-name" refines="#author">Thomas Carlyle</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Carlyle</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79022968</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:contributor id="artist">Sir John Everett Millais</dc:contributor>
+		<meta property="file-as" refines="#artist">Millais, Sir John Everett</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Everett_Millais</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50041758</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ron Burkey</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Burkey, Ron</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">David Osborne</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Osborne, David</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -62,22 +63,46 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
-	<manifest>
-		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-		<item href="css/core.css" id="core.css" media-type="text/css"/>
-		<item href="css/local.css" id="local.css" media-type="text/css"/>
-		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
-		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
-		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
-	</manifest>
-	<spine>
-		<itemref idref="titlepage.xhtml"/>
-		<itemref idref="imprint.xhtml"/>
-		<itemref idref="colophon.xhtml"/>
-		<itemref idref="uncopyright.xhtml"/>
-	</spine>
+<manifest>
+	<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+	<item href="css/core.css" id="core.css" media-type="text/css"/>
+	<item href="css/local.css" id="local.css" media-type="text/css"/>
+	<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+	<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+	<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+	<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	<item href="text/downing-street.xhtml" id="downing-street.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/epigraph-1.xhtml" id="epigraph-1.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/epigraph-2.xhtml" id="epigraph-2.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/hudsons-statue.xhtml" id="hudsons-statue.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	<item href="text/jesuitism.xhtml" id="jesuitism.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/model-prisons.xhtml" id="model-prisons.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/parliaments.xhtml" id="parliaments.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/stump-orator.xhtml" id="stump-orator.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/the-new-downing-street.xhtml" id="the-new-downing-street.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/the-present-time.xhtml" id="the-present-time.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+</manifest>
+<spine>
+	<itemref idref="titlepage.xhtml"/>
+	<itemref idref="imprint.xhtml"/>
+	<itemref idref="epigraph-1.xhtml"/>
+	<itemref idref="epigraph-2.xhtml"/>
+	<itemref idref="halftitle.xhtml"/>
+	<itemref idref="the-present-time.xhtml"/>
+	<itemref idref="model-prisons.xhtml"/>
+	<itemref idref="downing-street.xhtml"/>
+	<itemref idref="the-new-downing-street.xhtml"/>
+	<itemref idref="stump-orator.xhtml"/>
+	<itemref idref="parliaments.xhtml"/>
+	<itemref idref="hudsons-statue.xhtml"/>
+	<itemref idref="jesuitism.xhtml"/>
+	<itemref idref="endnotes.xhtml"/>
+	<itemref idref="colophon.xhtml"/>
+	<itemref idref="uncopyright.xhtml"/>
+</spine>
 </package>
