@@ -7,4 +7,6 @@ Thumbs.db
 
 # Don't commit until confirmed
 images/cover.jpg
+images/cover.source.jpg
 images/cover.xcf
+src/epub/images/cover.svg
