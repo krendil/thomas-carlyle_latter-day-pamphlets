@@ -5,3 +5,6 @@ Thumbs.db
 *.swp
 *.swo
 
+# Don't commit until confirmed
+images/cover.jpg
+images/cover.xcf
