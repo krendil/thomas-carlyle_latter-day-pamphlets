@@ -10,7 +10,7 @@
 	margin: 3em 0;
 }
 
-[epub|type~="bridgehead"]{
+[epub|type~="z3998:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	margin: 0 auto 3em auto;
@@ -19,6 +19,7 @@
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
 }
